@@ -1,3 +1,59 @@
+/* Main Styling (backrounds, fonts, etc) */
+
 a, p, h1, h2, h3 {
 	font-family: "Open Sans";
+	margin: 0;
+	}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+	
+.container {
+	width: 900px;
+	height: 100%;
+	margin: auto;
+	}
+	
+/* Social Media Bar */
+
+#smediabar {
+	height: 35px;
+	width: 100%;
+    font-family: 'Mono Social Icons Font';
+	font-size: 35px;
+	text-align: center;
+	color: #666;
+	background-color: #eee;
+	box-shadow: inset 0px -3px 3px -1px #ccc;
+	border-bottom: 1px solid #777;
+}
+	
+/* Header */
+
+#header {
+	background: #2B3F80;
+	border-bottom: 1px solid #777;
+	height: 150px;
+	width: 100%;
+	color: white;
+	}
+	
+#titlewrapper {
+	float: left;
+	}
+	
+#title {
+	line-height: 150px;
+	}
+	
+#topcontact {
+	float:right;
+	line-height:150px;
+	}
+
+#topcontact p, h1, h2, h3, a {
+	display: inline;
+	vertical-align: middle;
 	}
