@@ -3,22 +3,39 @@
 a, p, h1, h2, h3 {
 	font-family: "Open Sans";
 	margin: 0;
-	}
+}
 
 a {
-	color: #fff;
 	text-decoration: none;
 }
+
+body {
+	line-height: 1.6em;
+}	
 	
-.container {
+.contentWrapper {
 	width: 900px;
 	height: 100%;
 	margin: auto;
-	}
-	
+}
+
+#mainContent {
+	background: #fff;
+	margin: 30px 0px;
+	color: #545454;
+}
+
+#mainContent img {
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 10px;
+}
+
 /* Social Media Bar */
 
-#smediabar {
+#socialMediaBar {
 	height: 35px;
 	width: 100%;
     font-family: 'Mono Social Icons Font';
@@ -30,30 +47,154 @@ a {
 	border-bottom: 1px solid #777;
 }
 	
-/* Header */
+#topContact {
+	float:right;
+	line-height:150px;
+}
 
-#header {
-	background: #2B3F80;
-	border-bottom: 1px solid #777;
-	height: 150px;
-	width: 100%;
-	color: white;
-	}
+#topContact p, h1, h2, h3, a {
+	display: inline;
+	vertical-align: middle;
+}
 	
-#titlewrapper {
+/* Header and Footer */
+
+#header, #footer {
+	background: #2B3F80;
+	color: white;
+	width: 100%;
+}
+	
+#header {
+	height: 150px;
+}
+
+#footer {
+	font-size: 14px;
+	clear: both;
+}
+
+#titleWrapper {
 	float: left;
-	}
+}
 	
 #title {
 	line-height: 150px;
-	}
-	
-#topcontact {
-	float:right;
-	line-height:150px;
-	}
+}
 
-#topcontact p, h1, h2, h3, a {
-	display: inline;
-	vertical-align: middle;
-	}
+#title, .company {
+	text-transform:uppercase;
+}
+	
+.company{
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 1.8em;
+	
+}
+
+.email {
+	font-style: italic;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#mapCanvas {
+	border-radius: 10px;
+	margin-top: 5%;
+	margin-bottom: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 100%;
+	height: 150px;
+}
+
+#columnWrapper-1 {
+	float: left;
+	width: 30%;
+}		
+
+#columnWrapper-2 {
+	float: right;
+	width: 50%;
+ 	padding-left: 10%; 
+}
+
+#rowWrapper-1 {
+/* which background-color? */	
+	background-color: #F1F1F1;
+	background-color: #A2B7D0;
+	padding: 5px 0px;
+	clear: both;
+	text-align: center;
+}
+
+.resource img {
+	margin-left: 30px;
+	border-radius: 2px;
+	opacity: .7;
+}
+
+.resource  img:hover {
+	opacity: 1;
+}
+
+.resource a:hover {
+	background-color: none;
+}
+
+/*** PRACTICES ROW MENU ***/
+.boxWrap .box h1 {
+	padding: 10px;
+	text-align: center;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+/*** WHEN GET THIS RIGHT, CHANGE SIZE OF IMAGES ***/
+.boxWrap .box img {
+width: 187.5px;
+	width: 192px;
+	height: 120px;
+	border-top: 3px solid lightgray;
+}
+
+.boxWrap {
+	width:	900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#practiceMenuWrap {
+background-color: #A2B7D0;
+	background-color: white;
+	height: 160px;
+	box-shadow: inset 0px 15px 10px -10px #888;
+	padding-top: 10px;
+}
+
+a:link , a:visited {
+	color: #545454;	
+}
+
+a:hover {
+	color: black; 
+}
+
+.practiceHeader {
+	display: block;
+}
+
+.boxWrap .box {
+	float: left;
+	height: 150px;
+box-shadow: 10px 10px 10px #8999b1;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 10px;
+	margin-right: 25px;
+	overflow: hidden;
+	margin-top: 8px; 
+}
+
+
