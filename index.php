@@ -12,6 +12,7 @@
 	    	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 		<script type="text/javascript" src="js/map.js"> </script>
 	</head>
+<<<<<<< HEAD
 	<body onload="initialize()">
 		<div id="socialMediaBar"></div>
 		<div id="header">
@@ -87,5 +88,25 @@
 		</div>
 	<!-- <?php include("inc/footer.php"); ?> -->
 	<!-- MOM's stuff - END -->
+=======
+	<body>
+	<div id="smediabar">
+	<div class="container">
+	<a id="fb" class="smlink" href="http://facebook.com">f</a><a id="tw" class="smlink" href="http://twitter.com">T</a><a id="gp" class="smlink" href="http://plus.google.com">G</a>
+	</div>
+	</div>
+	<div id="header">
+	<div class="container">
+	<div id="titlewrapper">
+	<h1 id="title">Ladas Law Firm</h1>
+	</div>
+	<div id="topcontact">
+	<h2>1 (000)-000-0000</h2>
+	</div>
+	</div>
+	</div>
+	<div id="nav">
+	</div>
+>>>>>>> origin/master
 	</body>
 </html>
