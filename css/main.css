@@ -38,37 +38,14 @@ body {
 #socialMediaBar {
 	height: 35px;
 	width: 100%;
+    font-family: 'Mono Social Icons Font';
 	font-size: 35px;
-	text-align: left;
-	line-height: 35px;
+	text-align: center;
 	color: #666;
 	background-color: #eee;
 	box-shadow: inset 0px -3px 3px -1px #ccc;
 	border-bottom: 1px solid #777;
 }
-
-.smlink {
-    font-family: 'Symbol Icons';
-	display: inline;
-	line-height: 35px;
-	text-align: left;
-	color: #666;
-	padding-left: 5px;
-	padding-right: 5px;
-	
-	}
-	
-#fb:hover {
-	color: #3b5998;
-	}
-	
-#tw:hover {
-	color: #55ACEE;
-	}
-
-#gp:hover {
-	color: #d34836;
-	}
 	
 #topContact {
 	float:right;
@@ -120,6 +97,14 @@ body {
 	font-style: italic;
 	font-size: 1.1em;
 	font-weight: bold;
+}
+
+.email a:link , .email a:visited{
+	color: white;
+} 
+
+.email a:hover {
+	color: black; 
 }
 
 #mapCanvas {
