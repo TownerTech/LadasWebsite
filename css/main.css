@@ -239,8 +239,7 @@ body {
 
 /*** WHEN GET THIS RIGHT, CHANGE SIZE OF IMAGES ***/
 .boxWrap .box img {
-width: 187.5px;
-	width: 192px;
+width: 200px;
 	height: 120px;
 	border-top: 1px solid #ccc;
 }
@@ -281,6 +280,12 @@ a:hover {
 	margin-top: 8px; 
 	line-height: 15px;
 	border: 1px solid #ccc;
+	width:200px;
 }
+
+.boxWrap .box#last {
+	margin-right: 0px;
+	}
+
 
 
