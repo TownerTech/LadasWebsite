@@ -13,7 +13,8 @@
 		<script type="text/javascript" src="js/map.js"> </script>
 	</head>
 	<body onload="initialize()">
-		<div id="socialMediaBar"></div>
+		<!--<div id="socialMediaBar"></div>-->
+		<!--Dropdowns-->
 		<div id="header">
 			<div class="contentWrapper">			
 				<div id="titleWrapper">
@@ -23,9 +24,18 @@
 					<h2>781-829-9191</h2>
 				</div>
 			</div>
-		<div id="nav">
-		</div>
-
+			<div id="nav">
+			<div class="contentWrapper">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Attorneys</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+			</div>
+			</div>
+			</div>
 <!-- MOM's stuff - BEGIN-->
 		<div id="practiceMenuWrap">		
            <div class="boxWrap">            
