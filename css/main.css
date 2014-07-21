@@ -1,7 +1,12 @@
 /* Main Styling (backrounds, fonts, etc) */
 
+/*
 a, p, h1, h2, h3 {
 	font-family: "Open Sans";
+	margin: 0;
+}
+*/
+a, p {
 	margin: 0;
 }
 
@@ -9,8 +14,12 @@ a {
 	text-decoration: none;
 }
 
+p {
+	margin-bottom: 20px;
+}
 body {
 	line-height: 1.6em;
+	font-family: "Open Sans";
 }	
 	
 .contentWrapper {
@@ -33,6 +42,10 @@ body {
 	border-radius: 10px;
 }
 
+.interiorImg {
+	margin-top: 25px;
+}
+
 /* Social Media Bar */
 
 #socialMediaBar {
@@ -52,7 +65,7 @@ body {
 	line-height:150px;
 }
 
-#topContact p, h1, h2, h3, a {
+#topContact p, a {
 	display: inline;
 	vertical-align: middle;
 }
@@ -73,7 +86,7 @@ body {
     padding: 0;
 	text-align: center;
 	width: 100%;
-	}
+}
 	
 #nav li {
     display: inline-block;
@@ -86,7 +99,8 @@ body {
 	width: 100px;
 	color: #333;
 	font-weight: 400;
-	}
+	font-weight: bold;
+}
 	
 #nav a:hover {
 	background-color: #fff;
@@ -96,8 +110,9 @@ body {
 	width: 100px;
 	color: #2B3F80;
 	font-weight: 400;
-	}
-	
+	font-weight: bold;
+}
+		
 .dropdown {
 	width: 200px;
 	z-index: 1;
@@ -136,6 +151,10 @@ body {
 	height: 200px;
 }
 
+#header h1, #header h2{
+	margin: 0px;
+}
+
 #header .contentWrapper {
 	height: 150px;
 	}
@@ -167,7 +186,7 @@ body {
 	font-weight: bold;
 	font-size: 1.3em;
 	line-height: 1.8em;
-	
+	margin-top: 10px;
 }
 
 .email {
@@ -182,6 +201,15 @@ body {
 
 .email a:hover {
 	color: black; 
+}
+
+.attorneyEmail a:link, .attorneyEmail a:visited {
+	color: #545454;
+}
+
+.attorneyEmail a:hover {
+	color: black;
+	font-weight: bold;
 }
 
 #mapCanvas {

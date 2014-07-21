@@ -25,53 +25,65 @@
 				</div>
 			</div>
 			<div id="nav">
-				<div class="contentWrapper">
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="attorneys.php">Attorneys</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-		</div>
+			<div class="contentWrapper">
+			<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="attorneys.php">Attorneys</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+			</div>
+			</div>
+			</div>
 <!-- MOM's stuff - BEGIN-->
 		<div id="practiceMenuWrap">		
            <div class="boxWrap">            
             	<div class="box">
                 	<h1><a href="#" class="practiceHeader">Worker's Compensation</a></h1>
-                    	<div><a href="#"><img src="img/workcomp.jpg"/></a></div>
+                    	<div><a href="#"><img src="img/workcomp.jpg"></a></div>
                 </div>
                 <div class="box">
                 	<h1><a href="#" class="practiceHeader">Social Security Disability</a></h1>
-                    	<div><a href="#"><img src="img/ssdins.jpg"/></a></div>
+                    	<div><a href="#"><img src="img/ssdins.jpg"></a></div>
                 </div>
                 <div class="box">
                 	<h1><a href="#" class="practiceHeader">Motor Vehicle Accidents</a></h1>
-                    	<div><a href="#"><img src="img/motorvehicleaccident.jpg"/></a></div>
+                    	<div><a href="#"><img src="img/motorvehicleaccident.jpg"></a></div>
                 </div>
                 <div class="box" id="last">
-                	<h1><a href="motorcycle.php" class="practiceHeader" >Motorcycle Accidents</a></h1>
-                    	<div><a href="motorcycle.php"><img src="img/motorcycleaccident.jpg"/></a></div>
+                	<h1><a href="motorcycle.php" class="practiceHeader">Motorcycle Accidents</a></h1>
+                    	<div><a href="motorcycle.php"><img src="img/motorcycleaccident.jpg"></a></div>
                 </div>
 			</div>	
-		</div>			
+		</div>		
+
+		
 		<div id="mainContent">
 			<div class="contentWrapper">
-				<img src="img/sladas.jpg" alt="Stephen Ladas">
-				<p>In today's competitive legal environment you must have an attorney who is experienced, 
-					knowledgeable, and capable. We work closely with our clients in order to gain a complete
-					understanding of their goals and objectives. 
+				<h2>Motorcycle Accidents</h2>
+				<p>If you are the driver of a motorcycle and you are hit by a vehicle, you are more likely to sustain 
+					serious injuries than if you were the driver of a 4x4 vehicle or even a mid-sized auto. If you or 
+					a loved one are injured in a motorcycle accident as a result of another driver's negligence or 
+					reckless driving, it is important to seek the representation of an attorney experienced in motorcycle 
+					accident cases.
+					<img src="img/motorcycle2.jpg" alt="Motorcycle2" class="interiorImg">
 				</p>	
-				<p>Whether you are seeking workers compensation benefits or Social Security Disability Insurance 
-					benefits, or both, an experienced lawyer may make the difference between receiving the benefits 
-					you need or being denied. At Ladas Law Firm, P.C., we represent individuals who have been injured 
-					on the job and individuals disabled by illness or injury, and will help you through the complicated 
-					process of filing for and obtaining benefits. For a free initial consultation with Attorney J. 
-					Stephen Ladas, please call <span class="phone">(781) 829-0099</span> or contact us online.
+				<p>Attorney J. Stephen Ladas can help to subtantially minimize the time it takes to settle your claim 
+					by fighting the bias against motorcyclists and properly presenting the evidence to the insurance 
+					company on your behalf. If you are in an accident while riding a motorcycle, the insurance companies 
+					will most often times assume you are at blame. Attorney Ladas will thoroughly investigate your case 
+					in order to get you the maximum benefits you are entitled to.
+				</p>	
+				<p>We will help to prove that the defendant displayed negligence leading to the result of your accident. 
+					Not only will Attorney Ladas help to establish liability on the part of the defendant, he will also
+					help to prove that you sustained injuries as a result of the accident, by gathering evidence from 
+					police reports, medical reports, photographs, and testimonies.
 				</p>	
 			</div>
 		</div>
+
+
 		<div id="footer">
 			<div class="contentWrapper">	
 				<div id="columnWrapper-1">
