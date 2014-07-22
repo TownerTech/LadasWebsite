@@ -18,10 +18,14 @@
 		<div id="header">
 			<div class="contentWrapper">			
 				<div id="titleWrapper">
+					<img src="img/icon_256.png"/>
+					<div id="titlebox">
 					<h1 id="title">Ladas Law Firm</h1>
+					<h2>Attorneys At Law</h2>
+					</div>
 				</div>
 				<div id="topContact">
-					<h2>781-829-9191</h2>
+					<h2>(781) 829-9191</h2>
 				</div>
 			</div>
 			<div id="nav">
@@ -34,6 +38,7 @@
 						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
+			</div>
 		</div>
 <!-- MOM's stuff - BEGIN-->
 		<div id="practiceMenuWrap">		
@@ -93,7 +98,6 @@
 					<a href="http://www.nosscr.org/" class="resource" alt="National Organization of Social Security Claimants' Representatives website"><img src="img/nosscr.png"></a>
 				</div>
 			</div>
-		</div>
 	<!-- <?php include("inc/footer.php"); ?> -->
 	<!-- MOM's stuff - END -->
 	</body>

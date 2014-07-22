@@ -9,4 +9,4 @@ function initialize() {
 		map: map,
 		title: 'Ladas Law Firm'
 	});			
-}	
+}

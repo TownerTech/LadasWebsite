@@ -172,13 +172,30 @@ body {
 #titleWrapper {
 	float: left;
 }
-	
-#title {
-	line-height: 150px;
-	font-family: "Trebuchet MS",Helvetica,sans-serif;
-}
 
-#title, .company {
+#titleWrapper * {
+	display: inline;
+	}
+
+#titleWrapper img {
+	width: 100px;
+	vertical-align: middle;
+	margin: 25px 15px;
+	}
+
+#titlebox {
+	vertical-align: middle;
+	display: inline-block;
+	width: 300px;
+}
+	
+#titlebox * {
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	text-transform:uppercase;
+	line-height: 1em;
+	}
+
+.company {
 	text-transform:uppercase;
 }
 	
