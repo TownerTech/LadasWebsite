@@ -1,11 +1,5 @@
 /* Main Styling (backrounds, fonts, etc) */
 
-/*
-a, p, h1, h2, h3 {
-	font-family: "Open Sans";
-	margin: 0;
-}
-*/
 a, p {
 	margin: 0;
 }
@@ -15,25 +9,51 @@ a {
 }
 
 p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
+
 body {
 	line-height: 1.6em;
 	font-family: "Open Sans";
+	background: #A2B7D0;
 }	
-	
+
 .contentWrapper {
 	width: 900px;
+	margin:auto; 
+}
+
+.contentWrapperLeft {
+	width: 270px;
 	height: 100%;
-	margin: auto;
+	float: left;
+	background-color: 749AC7;
+	margin-right: 20px;
+	color: aliceblue;
+}
+
+.contentWrapperRight {
+	width: 570px;
+	height: 100%;
+	background: white;
+	float: right;
+	padding: 20px;
+	border-radius: 7px;
+	/* remove below when figure out better way to add space before footer */
+	margin-bottom: 30px;
+}
+
+#pageContent {
+	color: #545454;
+	width: 900px;
+	margin:auto; 
 }
 
 #mainContent {
-	background: #fff;
-	margin: 30px 0px;
-	color: #545454;
+	padding-top: 15px;
 }
 
+/*
 #mainContent img {
 	float: left;
 	margin-bottom: 25px;
@@ -41,7 +61,7 @@ body {
 	box-shadow: 5px 5px 10px #888;
 	border-radius: 10px;
 }
-
+*/
 .interiorImg {
 	margin-top: 25px;
 }
@@ -63,6 +83,7 @@ body {
 #topContact {
 	float:right;
 	line-height:150px;
+	margin-right: 20px;
 }
 
 #topContact p, a {
@@ -75,6 +96,7 @@ body {
 #nav {
 	height: 50px;
 	background: #A2B7D0;
+background: #749AC7;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
@@ -82,8 +104,8 @@ body {
 
 #nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 	text-align: center;
 	width: 100%;
 }
@@ -97,9 +119,9 @@ body {
 	height: 50px;
 	line-height: 48px;
 	width: 100px;
+width: 175px;
 	color: #333;
-	font-weight: 400;
-	font-weight: bold;
+color: white;	
 }
 	
 #nav a:hover {
@@ -107,10 +129,8 @@ body {
 	display: block;
 	height: 50px;
 	line-height: 48px;
-	width: 100px;
+	width: 175px;	
 	color: #2B3F80;
-	font-weight: 400;
-	font-weight: bold;
 }
 		
 .dropdown {
@@ -149,15 +169,38 @@ body {
 	
 #header {
 	height: 200px;
+	margin: 0px;
+	text-transform:uppercase;
+/*
+font-family: tahoma, geneva, sans-serif;
+font-weight: normal;
+*/
 }
+
 
 #header h1, #header h2{
 	margin: 0px;
+	font-family: tahoma, geneva, sans-serif;
+	font-weight: normal;
+}
+
+#titlebox h1{
+	font-family: serif;
+font-family: 'Crimson Text', serif;
+	font-size: 2em;
+/*	border-bottom: solid;*/
+	padding-bottom: 20px;
+}
+
+#titlebox h2{
+	color: lightgrey;
+	font-size: 1em;
+	width: 100%;
 }
 
 #header .contentWrapper {
 	height: 150px;
-	}
+}
 	
 #nav .contentWrapper {
 	height: 50px;
@@ -167,6 +210,9 @@ body {
 	font-size: 14px;
 	clear: both;
 	box-shadow: 0px 0px 10px 0px #333;
+	/* REMOVE after find better way to color the footer */
+	height: 300px;
+	width: 100%;
 }
 
 #titleWrapper {
@@ -175,13 +221,13 @@ body {
 
 #titleWrapper * {
 	display: inline;
-	}
+}
 
 #titleWrapper img {
 	width: 100px;
 	vertical-align: middle;
 	margin: 25px 15px;
-	}
+}
 
 #titlebox {
 	vertical-align: middle;
@@ -190,10 +236,10 @@ body {
 }
 	
 #titlebox * {
-	font-family: "Trebuchet MS",Helvetica,sans-serif;
-	text-transform:uppercase;
+	font-family: tahoma, geneva, sans-serif;
 	line-height: 1em;
-	}
+	font-weight: normal;
+}
 
 .company {
 	text-transform:uppercase;
@@ -236,6 +282,8 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 100%;
+width: 500px;	
+float:right;
 	height: 150px;
 }
 
@@ -250,6 +298,10 @@ body {
  	padding-left: 10%; 
 }
 
+ul.contactUsForm {
+	padding-left: 0px;
+}
+
 #rowWrapper-1 {
 /* which background-color? */	
 	background-color: #F1F1F1;
@@ -259,11 +311,28 @@ body {
 	text-align: center;
 }
 
+.resources {
+	margin-top: 30px;
+}
+
+ul.resources {
+/*
+	padding-left: 0px;
+*/	
+	
+}
+
+.resources img {
+	border-radius: 0px;
+}	
+
 .resource img {
 	margin-left: 30px;
-	border-radius: 2px;
+margin-left: 0px;
+	border-radius: 0px;
 	opacity: .7;
-}
+	margin-bottom: 2px;
+}	
 
 .resource  img:hover {
 	opacity: 1;
@@ -295,12 +364,64 @@ width: 200px;
 	margin-right: auto;
 }
 
+#sideNav li {
+	list-style-type: none;
+/*	padding: 0%;*/
+	font-size: 1em;
+}
+
+#sideNav  {
+	float: left;
+	width: 100%;
+	line-height: 175%;
+	margin-right: 2%;
+}	
+
+#sideNav  ul li {
+	font-size: 15px;
+}
+
+.categories, #formWrapper, .contentWrapperRight {
+	border: none;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 10px;
+}
+.categories {
+	background-color: #7FA3CD;
+	padding: 10%;
+background-color: #749AC7;
+}
+
+.categories  li {
+	border-bottom: solid grey thin;
+}
+
+.category  {
+	text-transform: uppercase;
+}
+
+.categories li a {
+	color: #423636;
+}
+
+#sideNav a:hover {
+	display: block;
+	color: darkblue;
+	text-decoration: none;
+}
+#sideNav a:active{
+	color: white;
+}
+
 #practiceMenuWrap {
+/*
 background-color: #A2B7D0;
 	background-color: white;
+*/
 	height: 160px;
 	box-shadow: inset 0px 10px 10px -10px #333;
 	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 a:link , a:visited {
@@ -326,11 +447,83 @@ a:hover {
 	line-height: 15px;
 	border: 1px solid #ccc;
 	width:200px;
+	background-color: white;
 }
 
 .boxWrap .box#last {
 	margin-right: 0px;
-	}
+}
+
+/* Form */
+#formWrapper{
+/*	border: 1px dotted #C9CDCC;
+*/
+/*
+	border-radius:25px;
+	background-color: white;
+*/	
+
+background-color: #7FA3CD;
+/*
+	width: 220px;
+*/	
+	padding: 15px;
+	font-size: 14px;
+}
+
+.caption {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+textarea, .textInput {
+	width: 220px;
+	margin: 5px 0px;
+	color: #555;
+	background-color: aliceblue;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+textarea {
+	height: 75px;
+	font-weight: normal;
+	line-height: 12px;
+	border: 1px solid #cccccc;
+	overflow: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+#submitWrapper, #submit {
+	width: 120px;
+}
+
+#submitWrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submit {
+	height: 35px;
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+	border: 1px solid #cccccc;
+	border-radius: 5px; 
+	text-transform: uppercase;
+}
+
+label.error {
+    color: #FF0000;
+	padding-left: 20px;
+}
+/* End of Form */
 
 
 
